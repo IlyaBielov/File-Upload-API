@@ -1,0 +1,10 @@
+/node_modules
+.env
+.idea/
+.claude/
+# express-fileupload useTempFiles пише сюди тимчасові файли
+/tmp
+
+# Локально завантажені картинки не комітимо, але папка потрібна для mv()
+/public/uploads/*
+!/public/uploads/.gitkeep
